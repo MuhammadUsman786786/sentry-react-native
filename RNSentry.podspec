@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = '*.js'
 
-  s.dependency 'React-Core'
+  s.dependency 'React/Core'
   s.dependency 'Sentry', '6.1.4'
 
   s.source_files = 'ios/RNSentry.{h,m}'
